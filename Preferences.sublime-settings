@@ -4,8 +4,9 @@
 	"caret_extra_width": 2,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Theme - Phoenix/Color Scheme/Phoenix Dark Blue.tmTheme",
+	"color_scheme": "Packages/Github.tmTheme",
 	"detect_slow_plugins": false,
+	"draw_centered": true,
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",
 	"folder_exclude_patterns":
@@ -20,7 +21,7 @@
 		"wp-includes"
 	],
 	"font_face": "Source Code Pro",
-	"font_size": 15,
+	"font_size": 16,
 	"gutter": true,
 	"hide_open_files": false,
 	"highlight_line": false,
@@ -48,7 +49,8 @@
 	"scroll_past_end": true,
 	"show_tab_close_buttons": true,
 	"tab_size": 2,
-	"theme": "Phoenix Dark.sublime-theme",
+	"theme": "Spacegray Light.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
+	"wrap_width": 80,
 	"word_wrap": true
 }
