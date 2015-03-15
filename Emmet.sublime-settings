@@ -1,0 +1,41 @@
+{
+	"php_single_line": true,
+	"snippets": {
+		"html": {
+			"snippets": {
+				"br": "<br />",
+				"hr": "<hr />",
+				"img": "<img src=\"\" alt=\"\" />",
+				"img+": "<img src=\"\" alt=\"\" style=\"border:0;display:none;\" />",
+				"input": "<input type=\"${1:text}\" />",
+				"inp": "<input type=\"${1:text}\" name=\"\" id=\"\" />",
+				"input:h|input:hidden": "input[type=hidden name]",
+				"input:t|input:text": "inp",
+				"input:search": "inp[type=search]",
+				"input:email": "inp[type=email]",
+				"input:url": "inp[type=url]",
+				"input:p|input:password": "inp[type=password]",
+				"input:datetime": "inp[type=datetime]",
+				"input:date": "inp[type=date]",
+				"input:datetime-local": "inp[type=datetime-local]",
+				"input:month": "inp[type=month]",
+				"input:week": "inp[type=week]",
+				"input:time": "inp[type=time]",
+				"input:tel": "inp[type=tel]",
+				"input:number": "inp[type=number]",
+				"input:color": "inp[type=color]",
+				"input:c|input:checkbox": "inp[type=checkbox]",
+				"input:r|input:radio": "inp[type=radio]",
+				"input:range": "inp[type=range]",
+				"input:f|input:file": "inp[type=file]",
+				"input:s|input:submit": "<input type=\"submit\" value=\"\" />",
+				"input:i|input:image": "<input type=\"image\" src=\"\" alt=\"\" />",
+				"input:b|input:button": "<input type=\"button\" value=\"\" />",
+				"row+": "<div class=\"row\">\n<label class=\"label\" for=\"${1:id}\">${2:Label}</label>\n<input type=\"${3:text}\" id=\"${1:id}\" name=\"${1:id}\" class=\"field field_${3:text}\" title=\"${2:Label}\" placeholder=\"${2:Label}\" />\n</div>"
+			},
+		"abbreviations": {
+				"menu+": "ul.menu>li.item*3"
+			}
+		}
+	}
+}
